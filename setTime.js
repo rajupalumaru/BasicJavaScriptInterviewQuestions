@@ -7,7 +7,7 @@ for(let i=0;i<words.length;i++){
    final.push(res);
 
 }
-console.log(final.join(' '))
+console.log(final.join(' '));
 
 // Capitalize the first letter of each word
 let capitalizedWords = words.map(word => {
@@ -18,6 +18,7 @@ let capitalizedWords = words.map(word => {
 });
 console.log(capitalizedWords.join(' '))
 
+
 // use replace method 
 let res  =sentence.replace(/\b\w/g, char => char.toUpperCase())
 console.log(res);
@@ -25,7 +26,6 @@ console.log(res);
 
 
 let wordss = words.map(word => {
-   
     return word;
 });
 console.log(wordss.join(' '))
