@@ -134,3 +134,5 @@ function allDomains(domainName, mainExtention, ...extensions){
     allDomains("Studytonight", ".com", ".xyz", ".online", ".in");
 
     //((...x, xs)=>x)(1,2,3)
+
+    
